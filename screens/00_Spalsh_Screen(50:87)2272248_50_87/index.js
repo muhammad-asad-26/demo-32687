@@ -60,7 +60,7 @@ export class Blank extends React.Component {
         <ImageBackground
           source={{
             uri:
-              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f25d/cff4/5877b9fad7846cb4be69b9884418abcf"
+              ""
           }}
           style={styles.ImageBackground_50_102}
         />
