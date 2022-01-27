@@ -1,12 +1,12 @@
 import React, { useEffect } from "react"
 import { View, StyleSheet, Image } from "react-native"
 
-const NEXT_SCREEN_NAME = "TermsAndConditions"
-
+// const NEXT_SCREEN_NAME = "TermsAndConditions"
+const NEXT_SCREEN_NAME="BoastSplash"
 const Splash = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate("00_Spalsh_Screen (50:87) 2")
+      navigation.navigate(NEXT_SCREEN_NAME)
     }, 3000)
   }, [])
 
