@@ -6,7 +6,7 @@ const NEXT_SCREEN_NAME = "TermsAndConditions"
 const Splash = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate(NEXT_SCREEN_NAME)
+      navigation.navigate("00_Spalsh_Screen (50:87) 2")
     }, 3000)
   }, [])
 
